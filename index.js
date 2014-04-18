@@ -34,5 +34,5 @@ module.exports = function(dest, assets) {
   } else if (!file.endsWith(assetsOrig, '/')) {
     assets = file.removeTrailingSlash(assets);
   }
-  return assets;
+  return file.normalizeSlash(assets);
 };

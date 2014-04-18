@@ -1,7 +1,7 @@
 {
   "name": "calculate-assets",
   "description": "Calculate the path to an 'assets' or 'public' directory from dest files. Determines whether or not the path should have a trailing slash making it safe to use in templates.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/jonschlinkert/calculate-assets",
   "author": {
     "name": "Jon Schlinkert",
@@ -31,7 +31,7 @@
     "node": ">=0.8"
   },
   "scripts": {
-    "test": "mocha -R test"
+    "test": "mocha -R spec"
   },
   "devDependencies": {
     "verb": "~0.2.0"
