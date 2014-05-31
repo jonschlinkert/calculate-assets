@@ -1,7 +1,7 @@
 {
   "name": "calculate-assets",
   "description": "Calculate the path to an 'assets' or 'public' directory from dest files. Determines whether or not the path should have a trailing slash making it safe to use in templates.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/jonschlinkert/calculate-assets",
   "author": {
     "name": "Jon Schlinkert",
